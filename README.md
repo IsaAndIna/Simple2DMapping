@@ -26,7 +26,7 @@ Now that the focal length is obtained, we can effectuate a camera pose estimatio
 
 - __Inputs__: uv image coordinates of 3 points making a triangle, and the distance between them in real scale(e.g. meter).
 <!-- - __Medium__:  -->
-- __Main output__: Camera pose ($\omega$, $\phi$, $\kappa$) and the 3d coordinates of the 3 reference points($\left( X_1, Y_1, Z_1=H\right)$, $\left( X_2=X_1, Y_2, Z_3=H\right)$, $\left( X_3, Y_3, Z_3=H\right)$)
+- __Main output__: Camera pose ($\omega$, $\phi$, $\kappa$) and the 3d coordinates of the 3 reference points($\left( X_1, Y_1, Z_1=H\right)$, $ \left( X_2=X_1, Y_2, Z_3=H\right) $ , $\left( X_3, Y_3, Z_3=H \right) $ )
 - __Assumptions__: 1. All the interior orientation elements are known ($c$: given, $\Delta x=0.0$, $\Delta y=0.0$, $\Delta r_x=0.0$, $\Delta r_y=0.0$)
 - __Things to be careful of__: define the triangle as big as possible to get a higher accuracy.
 
